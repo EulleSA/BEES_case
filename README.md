@@ -31,7 +31,7 @@ Com isso, os componentes serão provisionados. Você consegue acessar via `docke
 - Pode ser aplicado expectations, utilizando o Great Expectations, para monitorar e alertar, em caso de erros.
 
 ## Melhorias que podem ser feitas
-Infelizmente, devido ao trabalho, faculdade e vida pessoal, não consegui dar o foco que eu gostaria para entregar um projeto com mais qualidade, entretanto, deixo alguns pontos que podem ser melhorados no projeto
+Infelizmente, devido ao trabalho, faculdade e vida pessoal, não consegui dar o foco que eu gostaria para entregar um projeto com mais qualidade. Entretanto, o pipeline cumpre o que foi proposto. E abaixo deixo algumas melhorias que poderiam ser feitas:
 
 - Aplicação de data quality utilizando o Great Expectations para garantir que os dados estão chegando como o esperado, tanto em quantidade quanto em consistência.
 - Ocultar as credenciais de acesso ao endpoint, criando variáveis no ambiente do Airflow e compartilhando no job spark.
