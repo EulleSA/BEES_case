@@ -17,8 +17,11 @@ Com docker instalado, execute os seguintes comandos na raiz do projeto:
 
 Com isso, os componentes serão provisionados. Você consegue acessar via `docker-compose ps` para verificar as portas que foram disponibilizadas para as ferramentas, mas aqui o importante é o do Airflow, que você pode acessar pela url `localhost.com:8080` ( é bom esperar uns 20seg para tentar acessar o airflow porque pode dar )
 
-login_airflow: admin
-password_airflow: admin
+- **login_airflow**: admin
+- **password_airflow**: admin
+
+- **login_minio**: minioadmin
+- **password_minio**: minioadmin
 
 ## Monitoramento/Alerta
 
