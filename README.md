@@ -35,3 +35,8 @@ Infelizmente, devido ao trabalho, faculdade e vida pessoal, não consegui dar o 
 - Aplicação de data quality utilizando o Great Expectations para garantir que os dados estão chegando como o esperado, tanto em quantidade quanto em consistência.
 - Ocultar as credenciais de acesso ao endpoint, criando variáveis no ambiente do Airflow e compartilhando no job spark.
 - Criar um arquivo de controle do offset das páginas para que não seja necessário pegar o full todos os dias, e com isso só coletar os dados das páginas que ainda não foram obtidas.
+
+
+## Arquitetura
+
+![Arquitetura_pipeline](images/arquitetura.png)
