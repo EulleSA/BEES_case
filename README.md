@@ -8,7 +8,8 @@
     - Delta 3.1.0
     - Airflow 2.7.2
     - MinIO
-    - Docker Desktop
+    - [Docker Desktop](https://www.docker.com/products/docker-desktop/) - Se instalar isso, não precisa se preocupar com o docker compose.
+    - Docker Compose
 
 Com docker instalado, execute os seguintes comandos na raiz do projeto:
 
